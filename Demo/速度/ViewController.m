@@ -31,6 +31,8 @@
         [self.view addSubview:btn];
     }
     
+    NSLog(@"佳浩好帅！");
+    
     UIButton *viewBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     viewBtn.frame = CGRectMake(100, 400, 100, 50);
     [viewBtn setTitle:@"页面跳转" forState:UIControlStateNormal];
