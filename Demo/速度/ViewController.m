@@ -29,9 +29,13 @@
         [btn setBackgroundColor:[UIColor redColor]];
         
         [self.view addSubview:btn];
+        
+        for (int i=0; i<4; i++) {
+            
+        }
     }
     
-    NSLog(@"佳浩好帅！");
+    
     
     UIButton *viewBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     viewBtn.frame = CGRectMake(100, 400, 100, 50);
